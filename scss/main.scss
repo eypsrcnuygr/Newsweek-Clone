@@ -11,7 +11,28 @@ $font-family-sans-serif:       'Roboto Condensed', "Helvetica Neue", 'Arial', sa
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
+nav {
+  position: relative;
+}
+
 .subscribe-icon {
   color: rgb(98, 98, 98);
   font-size: 1rem;
+}
+
+.logo {
+  fill: white;
+}
+
+.logint-btn {
+  font-size: 1.3rem;
+}
+
+.nav-right-style {
+  height: 15px;
+  width: 90px;
+  position: absolute;
+  bottom: -15px;
+  right: 0;
+  background: linear-gradient(45deg, #fff 20%, red 20%);
 }
