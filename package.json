@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/eypsrcnuygr/Newsweek-Clone#readme",
   "dependencies": {
-    "bootstrap": "^4.5.0"
+    "bootstrap": "^4.5.0",
+    "rfs": "^9.0.3"
   },
   "devDependencies": {
     "node-sass": "^4.14.1",

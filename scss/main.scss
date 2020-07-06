@@ -1,3 +1,17 @@
 $primary: red;
+$warning: #fce402;
+
+$font-family-sans-serif:       'Roboto Condensed', "Helvetica Neue", 'Arial', sans-serif;
+
+@import "../node_modules/rfs/scss";
+
+.title {
+  @include font-size(1.2rem);
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+.subscribe-icon {
+  color: rgb(98, 98, 98);
+  font-size: 1rem;
+}
