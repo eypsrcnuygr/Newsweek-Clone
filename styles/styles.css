@@ -7184,3 +7184,9 @@ nav {
   bottom: -15px;
   right: 0;
   background: linear-gradient(45deg, #fff 20%, red 20%); }
+
+.search-input {
+  width: 65%; }
+
+.nav-link li:hover:not(:last-of-type) {
+  color: red; }
