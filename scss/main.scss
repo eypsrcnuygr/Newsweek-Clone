@@ -77,8 +77,8 @@ nav {
 
 .tag {
   background-color: rgba(228, 228, 228, 0.95);
-  position: absolute;
-  top: 20%;
+  position: relative;
+  top: -200px;
   color: $primary;
 }
 
