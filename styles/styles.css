@@ -7164,6 +7164,13 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+body {
+  max-width: 1350px;
+  margin: 0 auto; }
+
+.text-gray {
+  color: gray; }
+
 nav {
   position: relative; }
 
@@ -7186,7 +7193,29 @@ nav {
   background: linear-gradient(45deg, #fff 20%, red 20%); }
 
 .search-input {
-  width: 65%; }
+  width: 90px; }
+
+.search-input:active,
+.search-input:focus {
+  outline: none; }
+
+.links,
+.header-bottom-links {
+  border-bottom: 1px solid lightgray; }
+
+.links li {
+  font-size: 1rem;
+  border-right: 1px solid lightgray; }
 
 .nav-link li:hover:not(:last-of-type) {
+  color: red; }
+
+.card p {
+  font-weight: 300;
+  font-size: 0.9rem; }
+
+.tag {
+  background-color: rgba(228, 228, 228, 0.95);
+  position: absolute;
+  top: 196px;
   color: red; }

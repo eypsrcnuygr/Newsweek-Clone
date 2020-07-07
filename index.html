@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header class="container-lg container-fluid pl-0 pr-0">
+  <header class="container-fluid pl-0 pr-0">
     <nav class="navbar navbar-expand-lg bg-primary justify-content-between d-none d-lg-flex">
       <div class="row w-100 align-items-center justify-content-between">
         <div class="col-lg">
@@ -42,33 +42,55 @@
       </div>
       <div class="nav-right-style"></div>
     </nav>
-    <div class="pr-5">
-      <ul class="d-flex list-group-horizontal list-unstyled nav-link">
+    <div class="links pt-2 pb-2 d-none d-lg-block">
+      <ul class="d-flex list-group-horizontal list-unstyled nav-link mb-0">
         <li class="pr-4">U.S</li>
-        <li class="pr-4">World</li>
-        <li class="pr-4">Business</li>
-        <li class="pr-4">Tech & Science</li>
-        <li class="pr-4">Culture</li>
-        <li class="pr-4">Newsgeek</li>
-        <li class="pr-4">Sports</li>
-        <li class="pr-4">Health</li>
-        <li class="pr-4">The Debate</li>
-        <li class="pr-4">Vantage</li>
-        <li class="pr-4">Weather</li>
-        <li class="pl-3"><input class="border-0 search-input" type="search" name="search" placeholder="Search"/> <span><i class="fas fa-search ml-n5 search-icon"></i></span></li>
+        <li class="pr-4 ml-4">World</li>
+        <li class="pr-4 ml-4">Business</li>
+        <li class="pr-4 ml-4">Tech & Science</li>
+        <li class="pr-4 ml-4">Culture</li>
+        <li class="pr-4 ml-4">Newsgeek</li>
+        <li class="pr-4 ml-4">Sports</li>
+        <li class="pr-4 ml-4">Health</li>
+        <li class="pr-4 ml-4">The Debate</li>
+        <li class="pr-4 ml-4">Vantage</li>
+        <li class="pr-4 ml-4 border-0">Weather</li>
+        <li class="ml-2 border-0 d-flex align-items-center"><input class="border-0 search-input" type="search" name="search" placeholder="Search"/> <span><i class="fas fa-search search-icon ml-n4"></i></span></li>
       </ul>
     </div>
-    <div>
-      <ul class="d-flex list-unstyled list-group-horizontal nav-link">
+    <div class="header-bottom-links">
+      <ul class="d-flex list-unstyled list-group-horizontal nav-link mb-0">
         <li class="pr-4">TRENDING</li>
-        <li class="pr-4">DONALD TRUMP</li>
-        <li class="pr-4">JOE BIDEN</li>
-        <li class="pr-4">CHINA</li>
-        <li class="pr-4">CORONA VIRUS</li>
-        <li class="pr-4">2020 ELECTION</li>
+        <li class="pr-4 text-gray">DONALD TRUMP</li>
+        <li class="pr-4 text-gray">JOE BIDEN</li>
+        <li class="pr-4 text-gray">CHINA</li>
+        <li class="pr-4 text-gray">CORONA VIRUS</li>
+        <li class="pr-4 text-gray">2020 ELECTION</li>
       </ul>
     </div>
   </header>
+
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col-3 bg-info">
+        <div class="fetured-card">
+          <h5>Featured Stories</h5>
+          <div class="card border-0 rounded-0">
+            <img src="https://d.newsweek.com/en/full/1606859/electoral-college-supreme-court.jpg" class="card-img-top position-relative" alt="...">
+            <div class="card-body position-relative py-2 px-0">
+              <h5 class="card-title">Supreme Court Upholds 'Faithless Electors' Laws—How They Voted in 2016</h5>
+              <p class="card-text font-weight-lighter">The ruling came from a case in Washington state in which three electors challenged a law that allowed them to be fined for choosing how to cast their ballot.</p>
+          
+            </div>
+          </div>
+          <div class="tag py-1 px-4 d-inline-block text-center">U.S</div>
+        </div>
+
+      </div>
+      <div class="col-6 bg-info">Hello</div>
+      <div class="col-3 bg-info">Hello</div>
+    </div>
+  </main>
 
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
