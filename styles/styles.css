@@ -7221,9 +7221,11 @@ nav {
   color: red; }
 
 .my-turn-img {
-  height: 135px;
+  height: 10rem;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  width: 100%;
+  margin-right: 0; }
 
 .img-wraper1 {
   background-image: url("https://d.newsweek.com/en/full/1606679/lombok-earthquake-survival.jpg"); }
