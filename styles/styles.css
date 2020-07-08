@@ -7251,3 +7251,12 @@ nav {
 .N-icon {
   width: 29px;
   height: 28px; }
+
+.second-card {
+  top: 30px;
+  left: 50px; }
+
+.newsletter-img {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-size: cover;
+  background-position: center; }
