@@ -133,3 +133,38 @@ nav {
   background-size: cover;
   background-position: center;
 }
+
+.debate-divider::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: calc(38% - 2px);
+}
+
+.debate-divider::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 20px;
+  top: 38%;
+  right: 20px;
+}
+
+.debate-divider p {
+  z-index: 999;
+}
+
+.footer-logo-img {
+  width: 40%;
+  fill: $primary;
+}
+
+.footer-social-icons {
+  font-size: 25px;
+}
