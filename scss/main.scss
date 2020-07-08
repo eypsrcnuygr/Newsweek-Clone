@@ -165,6 +165,42 @@ nav {
   fill: $primary;
 }
 
-.footer-social-icons {
+.footer-social-icons i {
   font-size: 25px;
+}
+
+.facebook:hover {
+  color: #244d9e;
+}
+
+.twitter:hover {
+  color: #37a1f2;
+}
+
+.insta:hover {
+  color: #da0051;
+}
+
+.tumblr:hover {
+  color: #37465d;
+}
+
+.linkedIn:hover {
+  color: #2677b5;
+}
+
+.edition-links::after {
+  content: "|";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+footer a {
+  font-family: Arial, sans-serif;
+}
+
+footer a:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
 }
