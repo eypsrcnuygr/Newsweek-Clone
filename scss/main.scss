@@ -13,10 +13,18 @@ $font-family-sans-serif: "Roboto Condensed", "Helvetica Neue", "Arial",
 @import "../node_modules/bootstrap/scss/bootstrap";
 
 body {
-  max-width: 1350px;
-  margin: 0 auto;
+  background-color: #f4f5f6;
 }
 
+main,
+header,
+footer {
+  max-width: 1350px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.text-gray-footer,
 .text-gray {
   color: gray;
 }
@@ -77,9 +85,20 @@ nav {
 
 .tag {
   background-color: rgba(228, 228, 228, 0.95);
-  position: relative;
-  top: -200px;
   color: $primary;
+  width: 25%;
+  margin-top: -31px;
+  z-index: 999;
+}
+
+#modified-tag {
+  color: blue;
+  width: 60%;
+}
+
+#modifiable-tag2 {
+  color: $primary;
+  width: 60%;
 }
 
 .my-turn-img {
@@ -199,6 +218,8 @@ footer a {
   font-family: Arial, sans-serif;
 }
 
+.text-gray-footer p:hover,
+.text-gray-footer li:hover,
 footer a:hover {
   text-decoration: none;
   color: black;
