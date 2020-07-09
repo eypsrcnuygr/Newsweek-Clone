@@ -42,6 +42,12 @@ nav {
   fill: white;
 }
 
+.menubar-icon {
+  font-size: 30px;
+  line-height: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
 .logint-btn {
   font-size: 1.3rem;
 }
@@ -64,14 +70,8 @@ nav {
   outline: none;
 }
 
-.links,
 .header-bottom-links {
   border-bottom: 1px solid lightgray;
-}
-
-.links li {
-  font-size: 1rem;
-  border-right: 1px solid lightgray;
 }
 
 .nav-link li:hover:not(:last-of-type) {
@@ -206,6 +206,12 @@ nav {
 
 .linkedIn:hover {
   color: #2677b5;
+}
+
+.nav-link-divider::after {
+  content: "|";
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .edition-links::after {
