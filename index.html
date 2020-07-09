@@ -24,7 +24,7 @@
         class="navbar navbar-expand-lg bg-primary justify-content-between align-items-center"
       >
         <div class="row w-100 align-items-center justify-content-between">
-          <div class="col-lg d-none d-lg-block">
+          <div class="col-lg-4 d-none d-lg-block">
             <div class="col d-flex pl-0 align-items-center">
               <div class="col-lg-2 pl-0 pr-1">
                 <img
@@ -37,7 +37,7 @@
             </div>
             <date class="text-light">Mon, Jul 06, 2020</date>
           </div>
-          <div class="col-lg-3 col-md-3">
+          <div class="col-lg-4 col">
             <svg
               class="logo"
               version="1.1"
@@ -57,23 +57,25 @@
             </svg>
           </div>
           <div
-            class="col-lg-3 col-md-9 pr-0 d-flex justify-content-end align-items-center"
+            class="col-lg-4 col-7 pr-0 d-flex justify-content-end align-items-center"
           >
+            <span class="mr-2"
+              ><i class="fas fa-user d-md-none d-inline-block user-icon"></i
+            ></span>
             <button
-              class="logint-btn border-0 bg-transparent text-light font-weight-lighter mr-3"
+              class="logint-btn border-0 bg-transparent text-light font-weight-lighter mr-3 d-none d-md-inline-block"
               id="pelcro-login-button"
             >
               Login
             </button>
+
             <button
-              class="pl-3 pr-3 border-0 pt-1 pb-1 rounded-pill bg-warning title text-uppercase flex align-items-center"
+              class="nav-subscribe-btn px-2 border-0 py-1 rounded-pill bg-warning title text-uppercase flex align-items-center"
             >
               Subscribe
-              <span
-                ><i class="fas fa-chevron-right subscribe-icon ml-1"></i
-              ></span>
+              <span><i class="fas fa-chevron-right subscribe-icon"></i></span>
             </button>
-            <span class="ml-3 d-none d-md-inline-block">
+            <span class="ml-3 d-lg-none d-md-inline-block">
               <i class="fas fa-bars menubar-icon"></i
             ></span>
           </div>
@@ -120,9 +122,9 @@
     </header>
     <!-- main section -->
     <main class="container-fluid mb-5 px-4 pt-4">
-      <div class="row">
+      <div class="row d-flex flex-column flex-md-row">
         <!-- column 1 -->
-        <div class="col-lg-3 pl-4 col-md-12">
+        <div class="col-lg-3 col-md-6 pl-4 order-md-1 order-sm-2">
           <div class="fetured-card mb-4">
             <h6 class="text-gray">FEATURED STORIES</h6>
             <div class="card border-0 rounded-0">
@@ -273,8 +275,8 @@
 
         <!-- column 2 -->
 
-        <div class="col-lg-6 px-4 col-md-12">
-          <div class="fetured-card">
+        <div class="col-lg-6 col-md-6 px-4 order-md-2">
+          <div class="fetured-card order-sm-1 order-md-2">
             <h6 class="text-gray">TOP STORY</h6>
             <div class="card border-0 rounded-0">
               <img
@@ -298,10 +300,10 @@
             </div>
           </div>
 
-          <div class="my-turn d-flex flex-column my-3">
+          <div class="my-turn d-flex flex-column my-3 order-sm-3">
             <h5>MY TURN</h5>
             <div class="articles d-flex">
-              <div class="row w-100 m-auto d-flex flex-column flex-lg-row">
+              <div class="row w-100 m-auto d-flex flex-column flex-md-row">
                 <article class="col px-0 mr-2">
                   <div class="my-turn-img img-wraper1"></div>
 
@@ -333,7 +335,7 @@
           <div class="my-turn d-flex flex-column mb-4">
             <h5>CULTURE & TRAVEL</h5>
             <div class="articles d-flex">
-              <div class="row w-100 m-auto flex-column flex-lg-row">
+              <div class="row w-100 m-auto flex-column flex-md-row">
                 <article class="col px-0 mr-2">
                   <div class="my-turn-img img-wraper4"></div>
 
@@ -364,7 +366,7 @@
 
           <section>
             <h6 class="text-gray">MORE STORIES</h6>
-            <div class="container-fluid mb-3">
+            <div class="container-fluid mb-3 pl-0">
               <div class="pb-2 border-bottom border-gray">
                 <div class="float-left mr-3 pl-0">
                   <img
@@ -385,7 +387,7 @@
                 </div>
               </div>
             </div>
-            <div class="container-fluid mb-3">
+            <div class="container-fluid mb-3 pl-0">
               <div class="pb-2 border-bottom border-gray">
                 <div class="float-left mr-3 pl-0">
                   <img
@@ -406,7 +408,7 @@
                 </div>
               </div>
             </div>
-            <div class="container-fluid mb-3">
+            <div class="container-fluid mb-3 pl-0">
               <div class="pb-2 border-bottom border-gray">
                 <div class="float-left mr-3 pl-0">
                   <img
@@ -427,7 +429,7 @@
                 </div>
               </div>
             </div>
-            <div class="container-fluid mb-3">
+            <div class="container-fluid mb-3 pl-0">
               <div class="pb-2 border-bottom border-gray">
                 <div class="float-left mr-3 pl-0">
                   <img
@@ -448,7 +450,7 @@
                 </div>
               </div>
             </div>
-            <div class="container-fluid mb-3">
+            <div class="container-fluid mb-3 pl-0">
               <div class="pb-2 border-bottom border-gray">
                 <div class="float-left mr-3 pl-0">
                   <img
@@ -469,7 +471,7 @@
                 </div>
               </div>
             </div>
-            <div class="container-fluid mb-3">
+            <div class="container-fluid mb-3 pl-0">
               <div class="pb-2 border-bottom border-gray">
                 <div class="float-left mr-3 pl-0">
                   <img
@@ -490,7 +492,7 @@
                 </div>
               </div>
             </div>
-            <div class="container-fluid mb-3">
+            <div class="container-fluid mb-3 pl-0">
               <div class="pb-2 border-bottom border-gray">
                 <div class="float-left mr-3 pl-0">
                   <img
@@ -511,7 +513,7 @@
                 </div>
               </div>
             </div>
-            <div class="container-fluid mb-3">
+            <div class="container-fluid mb-3 pl-0">
               <div class="pb-2 border-bottom border-gray">
                 <div class="float-left mr-3 pl-0">
                   <img
@@ -532,7 +534,7 @@
                 </div>
               </div>
             </div>
-            <div class="container-fluid mb-3">
+            <div class="container-fluid mb-3 pl-0">
               <div class="pb-2 border-bottom border-gray">
                 <div class="float-left mr-3 pl-0">
                   <img
@@ -553,7 +555,7 @@
                 </div>
               </div>
             </div>
-            <div class="container-fluid mb-3">
+            <div class="container-fluid mb-3 pl-0">
               <div class="pb-2 border-bottom border-gray">
                 <div class="float-left mr-3 pl-0">
                   <img
@@ -574,7 +576,7 @@
                 </div>
               </div>
             </div>
-            <div class="container-fluid mb-3">
+            <div class="container-fluid mb-3 pl-0">
               <div class="pb-2 border-bottom border-gray">
                 <div class="float-left mr-3 pl-0">
                   <img
@@ -595,19 +597,15 @@
                 </div>
               </div>
             </div>
-            
-         
-            
-            
           </section>
         </div>
 
         <!-- column 3 -->
 
-        <div class="col-md-3 col-sm-12">
+        <div class="col-lg-3 order-md-3 order-sm-2">
           <section class="pb-1 border-bottom border-gray">
             <h6 class="pb-2 border-bottom border-gray text-gray">THE DEBATE</h6>
-            <div class="row mt-3 co">
+            <div class="row mt-3">
               <div class="col-3">
                 <img
                   src="https://d.newsweek.com/en/full/1596057/scott-modell.png?w=150&h=150&f=0d277025ea5247e250d977e1aa2e2faf"
@@ -861,8 +859,10 @@
           </h5>
         </div>
         <!-- row-1 -->
-        <div class="row d-flex align-items-xl-end align-items-lg-start mb-4">
-          <div class="col-lg-3 pr-0">
+        <div
+          class="row d-flex flex-column flex-md-row align-items-xl-end align-items-lg-start mb-4"
+        >
+          <div class="col pr-0">
             <div class="card border-0">
               <img
                 class="img-in-good"
@@ -880,7 +880,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 pr-0">
+          <div class="col pr-0">
             <div class="card border-0">
               <img
                 src="https://d.newsweek.com/en/full/1604216/good-list-banner.jpg?w=466&amp;h=311&amp;q=90&amp;f=2062901c3efd89779019feae0efa97da"
@@ -897,7 +897,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 pr-0">
+          <div class="col pr-0">
             <div class="card border-0">
               <img
                 src="https://d.newsweek.com/en/full/1603649/fe-blm-global-banner.jpg?w=466&amp;h=311&amp;l=50&amp;t=50&amp;q=90&amp;f=5891facf5f34d673e1c8ace8cf160efe"
@@ -913,7 +913,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 pr-0">
+          <div class="col pr-0">
             <div class="card border-0">
               <img
                 src="https://d.newsweek.com/en/full/1603672/fe-blm-global-patrice-culler.jpg?w=466&amp;h=311&amp;l=51&amp;t=51&amp;q=90&amp;f=100b30ef6ea38176ffe7668da0050621"
@@ -931,8 +931,10 @@
           </div>
         </div>
         <!-- row-2 -->
-        <div class="row d-flex align-items-xl-start mb-4">
-          <div class="col-lg-3 pr-0">
+        <div
+          class="row d-flex flex-column flex-md-row align-items-xl-start mb-4"
+        >
+          <div class="col pr-0">
             <div class="card border-0">
               <img
                 class="card-img-top"
@@ -948,7 +950,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 pr-0">
+          <div class="col pr-0">
             <div class="card border-0">
               <img
                 class="card-img-top"
@@ -962,7 +964,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 pr-0">
+          <div class="col pr-0">
             <div class="card border-0">
               <img
                 class="card-img-top"
@@ -978,7 +980,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-3 pr-0">
+          <div class="col pr-0">
             <div class="card border-0">
               <img
                 class="card-img-top"
