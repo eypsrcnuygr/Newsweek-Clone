@@ -86,7 +86,7 @@ nav {
 .tag {
   background-color: rgba(228, 228, 228, 0.95);
   color: $primary;
-  width: 25%;
+  width: 35%;
   margin-top: -31px;
   z-index: 999;
 }
@@ -98,7 +98,7 @@ nav {
 
 #modifiable-tag2 {
   color: $primary;
-  width: 60%;
+  width: 70%;
 }
 
 .my-turn-img {
@@ -230,4 +230,16 @@ footer a:hover {
   text-decoration: none;
   color: black;
   font-weight: 300;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  } 
+
+.img-in-good {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
