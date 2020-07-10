@@ -5,7 +5,7 @@ This is the real page https://www.newsweek.com/
 
 ![screenshot](./assets/images/screenshot-1.png)
 ![screenshot](./assets/images/screenshot-2.png)
-![screenshot](./assets/images/screenshot-33.png)
+![screenshot](./assets/images/screenshot-3.png)
 ![screenshot](./assets/images/screenshot-mobile-view.png)
 
 It is a fully responsive page.
