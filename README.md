@@ -3,8 +3,8 @@
 > This is a project which is a clone page of a newsweek page that uses Bootstrap.
 This is the real page https://www.newsweek.com/
 
-![screenshot](./assets/images/screenshot-1.png)
 ![screenshot](./assets/images/screenshot-2.png)
+![screenshot](./assets/images/screenshot-1.png)
 ![screenshot](./assets/images/screenshot-3.png)
 ![screenshot](./assets/images/screenshot-mobile-view.png)
 
