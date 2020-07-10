@@ -54,7 +54,7 @@ nav {
 
 .nav-right-style {
   height: 15px;
-  width: 90px;
+  width: 6%;
   position: absolute;
   bottom: -15px;
   right: 0;
@@ -102,35 +102,13 @@ nav {
 }
 
 .my-turn-img {
-  height: 10rem;
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 100%;
   margin-right: 0;
 }
 
-.img-wraper1 {
-  background-image: url("https://d.newsweek.com/en/full/1606679/lombok-earthquake-survival.jpg");
-}
-
-.img-wraper2 {
-  background-image: url("https://d.newsweek.com/en/full/1606512/coming-out-gay-man-lgbtq.png");
-}
-
-.img-wraper3 {
-  background-image: url("https://d.newsweek.com/en/full/1606397/mother-teresa-calcutta-volunteering-mental-health.jpg");
-}
-
-.img-wraper4 {
-  background-image: url("https://d.newsweek.com/en/full/1604673/cul-uncharted-places-banner.jpg");
-}
-
-.img-wraper5 {
-  background-image: url("https://d.newsweek.com/en/full/1603519/50foods-alabama.jpg");
-}
-
-.img-wraper6 {
-  background-image: url("https://d.newsweek.com/en/full/1604750/area51-11.jpg?w=397&amp;h=397&amp;f=f687245e4a35c5ede60938e093f8f61d");
+.col2-myTurn-img {
+  height: 9vw;
+  max-height: 200px;
 }
 
 .sign-up {
@@ -251,4 +229,8 @@ footer a:hover {
 .user-icon {
   font-size: 1.1rem;
   color: rgba(255, 255, 255, 0.7);
+}
+
+.subscribe-card {
+  background-color: #f4f5f6;
 }
