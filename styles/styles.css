@@ -7258,7 +7258,8 @@ footer a:hover {
   max-height: 200px; }
 
 .sign-up {
-  background-color: #f4f5f6; }
+  background-color: #f4f5f6;
+  max-width: 310px; }
 
 .N-icon {
   width: 29px;
@@ -7346,9 +7347,16 @@ footer a:hover {
   background-color: #f4f5f6; }
 
 .in-the-magazine-img {
-  max-height: 400px;
+  min-height: 230px;
+  max-height: 350px;
   height: 16vw; }
 
 .inthe-magazine-row2-img {
   max-height: 300px;
-  height: 10vw; }
+  height: 16vw; }
+
+@media only screen and (min-width: 768px) {
+  .sponsored-insight,
+  .best-nursing-home,
+  .infection-prevention {
+    max-width: 330px; } }
