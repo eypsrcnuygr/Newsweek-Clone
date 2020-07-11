@@ -7273,7 +7273,7 @@ footer a:hover {
   background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5");
   background-size: cover;
   background-position: center;
-  max-height: 300px; }
+  height: 238px; }
 
 .debate-divider::before {
   content: "";
@@ -7355,6 +7355,9 @@ footer a:hover {
 .inthe-magazine-row2-img {
   max-height: 300px;
   height: 16vw; }
+
+.newsletter-card {
+  background-color: #f4f5f6; }
 
 @media only screen and (min-width: 768px) {
   .sponsored-insight,
