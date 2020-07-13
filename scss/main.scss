@@ -1,5 +1,6 @@
 $primary: red;
 $warning: #fce402;
+$enable-responsive-font-sizes: true; 
 
 $font-family-sans-serif: "Roboto Condensed", "Helvetica Neue", "Arial",
   sans-serif;
@@ -11,6 +12,10 @@ $font-family-sans-serif: "Roboto Condensed", "Helvetica Neue", "Arial",
 }
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+h5 {
+  font-size: 1.1rem;
+}
 
 body {
   background-color: #f4f5f6;
@@ -102,19 +107,24 @@ footer a:hover {
 .tag {
   background-color: rgba(228, 228, 228, 0.95);
   color: $primary;
-  width: 35%;
+  width: 80px;
   margin-top: -31px;
   z-index: 999;
 }
 
 #modified-tag {
   color: blue;
-  width: 60%;
+  width: 160px;
 }
 
 #modifiable-tag2 {
   color: $primary;
-  width: 70%;
+  width: 150px;
+}
+
+.tag-2 {
+  position: relative;
+  top: -30px;
 }
 
 .my-turn-img {
