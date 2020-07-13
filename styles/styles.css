@@ -7401,3 +7401,9 @@ footer a:hover {
   .best-nursing-home,
   .infection-prevention {
     max-width: 330px; } }
+
+@media only screen and (min-width: 1200px) {
+  .in-the-magazine-img,
+  .inthe-magazine-row2-img {
+    min-height: 295px;
+    max-height: 300px; } }
