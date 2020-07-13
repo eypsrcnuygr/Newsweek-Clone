@@ -7385,7 +7385,7 @@ footer a:hover {
   background-color: #f4f5f6; }
 
 .in-the-magazine-img {
-  min-height: 230px;
+  min-height: 181px;
   max-height: 350px;
   height: 16vw; }
 
@@ -7395,6 +7395,10 @@ footer a:hover {
 
 .newsletter-card {
   background-color: #f4f5f6; }
+
+.section-us-image-wraper {
+  width: 90px;
+  height: 90px; }
 
 @media only screen and (min-width: 768px) {
   .sponsored-insight,

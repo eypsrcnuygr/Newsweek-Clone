@@ -1,6 +1,6 @@
 $primary: red;
 $warning: #fce402;
-$enable-responsive-font-sizes: true; 
+$enable-responsive-font-sizes: true;
 
 $font-family-sans-serif: "Roboto Condensed", "Helvetica Neue", "Arial",
   sans-serif;
@@ -248,7 +248,7 @@ footer a:hover {
 }
 
 .in-the-magazine-img {
-  min-height: 230px;
+  min-height: 181px;
   max-height: 350px;
   height: 16vw;
 }
@@ -260,6 +260,11 @@ footer a:hover {
 
 .newsletter-card {
   background-color: #f4f5f6;
+}
+
+.section-us-image-wraper {
+  width: 90px;
+  height: 90px;
 }
 
 @media only screen and (min-width: 768px) {
