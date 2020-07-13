@@ -1,0 +1,279 @@
+$primary: red;
+$warning: #fce402;
+$enable-responsive-font-sizes: true;
+
+$font-family-sans-serif: "Roboto Condensed", "Helvetica Neue", "Arial",
+  sans-serif;
+
+@import "../node_modules/rfs/scss";
+
+.title {
+  @include font-size(1.2rem);
+}
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+h5 {
+  font-size: 1.1rem;
+}
+
+body {
+  background-color: #f4f5f6;
+}
+
+main,
+header,
+footer {
+  max-width: 1350px;
+  margin: 0 auto;
+  background-color: white;
+}
+
+.text-gray-footer,
+.text-gray {
+  color: gray;
+}
+
+nav {
+  position: relative;
+}
+
+.subscribe-icon {
+  color: rgb(98, 98, 98);
+  font-size: 1rem;
+}
+
+.logo {
+  fill: white;
+}
+
+.menubar-icon {
+  font-size: 30px;
+  line-height: 2rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.logint-btn {
+  font-size: 1.3rem;
+}
+
+.nav-right-style {
+  height: 15px;
+  width: 6%;
+  position: absolute;
+  bottom: -15px;
+  right: 0;
+  background: linear-gradient(45deg, #fff 20%, red 20%);
+}
+
+.search-input {
+  width: 90px;
+}
+
+.search-input:active,
+.search-input:focus {
+  outline: none;
+}
+
+.header-bottom-links {
+  border-bottom: 1px solid lightgray;
+}
+
+.card p {
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+.debate-divider p {
+  z-index: 999;
+}
+
+footer a {
+  font-family: Arial, sans-serif;
+}
+
+.text-gray-footer p:hover,
+.text-gray-footer li:hover,
+footer a:hover {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+}
+
+.nav-link li:hover:not(:last-of-type) {
+  color: red;
+}
+
+.tag {
+  background-color: rgba(228, 228, 228, 0.95);
+  color: $primary;
+  width: 80px;
+  margin-top: -31px;
+  z-index: 999;
+}
+
+#modified-tag {
+  color: blue;
+  width: 160px;
+}
+
+#modifiable-tag2 {
+  color: $primary;
+  width: 150px;
+}
+
+.tag-2 {
+  position: relative;
+  top: -30px;
+}
+
+.my-turn-img {
+  width: 100%;
+  margin-right: 0;
+}
+
+.col2-myTurn-img {
+  height: 9vw;
+  max-height: 200px;
+}
+
+.sign-up {
+  background-color: #f4f5f6;
+  max-width: 310px;
+}
+
+.N-icon {
+  width: 29px;
+  height: 28px;
+}
+
+.second-card {
+  top: 30px;
+  left: 50px;
+}
+
+.newsletter-img {
+  background-image: url("https://d.newsweek.com/en/full/1541302/starting5-homepage.png?w=397&amp;h=265&amp;q=90&amp;f=742bce9a6f72dd8f19ba2e7fd5db06e5");
+  background-size: cover;
+  background-position: center;
+  height: 238px;
+}
+
+.debate-divider::before {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: calc(38% - 2px);
+}
+
+.debate-divider::after {
+  content: "";
+  display: block;
+  background-color: #d9d9d9;
+  height: 1px;
+  position: absolute;
+  left: 20px;
+  top: 38%;
+  right: 20px;
+}
+
+.footer-logo-img {
+  width: 40%;
+  fill: $primary;
+}
+
+.footer-social-icons i {
+  font-size: 25px;
+}
+
+.facebook:hover {
+  color: #244d9e;
+}
+
+.twitter:hover {
+  color: #37a1f2;
+}
+
+.insta:hover {
+  color: #da0051;
+}
+
+.tumblr:hover {
+  color: #37465d;
+}
+
+.linkedIn:hover {
+  color: #2677b5;
+}
+
+.nav-link-divider::after {
+  content: "|";
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.edition-links::after {
+  content: "|";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.img-in-good {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.nav-subscribe-btn {
+  font-size: 1rem;
+}
+
+.user-icon {
+  font-size: 1.1rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.subscribe-card {
+  background-color: #f4f5f6;
+}
+
+.in-the-magazine-img {
+  min-height: 181px;
+  max-height: 350px;
+  height: 16vw;
+}
+
+.inthe-magazine-row2-img {
+  max-height: 300px;
+  height: 16vw;
+}
+
+.newsletter-card {
+  background-color: #f4f5f6;
+}
+
+@media only screen and (min-width: 768px) {
+  .sponsored-insight,
+  .best-nursing-home,
+  .infection-prevention {
+    max-width: 330px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .in-the-magazine-img,
+  .inthe-magazine-row2-img {
+    min-height: 295px;
+    max-height: 300px;
+  }
+}

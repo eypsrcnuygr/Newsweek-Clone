@@ -1,0 +1,31 @@
+{
+  "name": "newsweek-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node-sass scss/main.scss styles/styles.css",
+    "build:watch": "node-sass --watch scss/main.scss styles/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eypsrcnuygr/Newsweek-Clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eypsrcnuygr/Newsweek-Clone/issues"
+  },
+  "homepage": "https://github.com/eypsrcnuygr/Newsweek-Clone#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "rfs": "^9.0.3"
+  },
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "stylelint": "^13.3.3",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-scss": "^3.17.2"
+  }
+}
