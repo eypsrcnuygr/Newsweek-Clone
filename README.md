@@ -35,7 +35,7 @@ It is a fully responsive page.
 - Linkedin: [Amita Roy](https://www.linkedin.com/in/amita-roy-3b823b68/)
 - E-Mail: [amita.roy@workmail.com](amita.roy@workmail.com)
 
-👤 **Author2**
+👤 **Eyüp Sercan UYGUR**
 
 - Github: [@eypsrcnuygr](https://github.com/eypsrcnuygr)
 - Twitter: [@eypsrcnuygr](https://twitter.com/eypsrcnuygr)
